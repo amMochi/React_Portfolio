@@ -20,7 +20,7 @@ const Contact = () => {
             transition={{duration: 1}}
             className="my-4">{CONTACT.address}</motion.p>
             <p className="my-4">{CONTACT.phoneNo}</p>
-            <a href="#" className="border-b">{CONTACT.email}</a>
+            <a href="mailto:poncegodfrey@gmail.com" className="border-b">{CONTACT.email}</a>
         </motion.div>
     </div>
   );

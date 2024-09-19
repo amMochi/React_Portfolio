@@ -1,6 +1,8 @@
 import {HERO_CONTENT} from "../constants";
 import profilePic from "../assets/pong.png";
 import { motion } from "framer-motion";
+import resume from '../assets/Godfrey_Ponce_Resume.pdf';
+
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0},
@@ -30,7 +32,20 @@ const Hero = () => {
                    <motion.p 
                    variants={container(1)}
                    initial="hidden"
-                   animate="visible"className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
+                   animate="visible"className="my-2 max-w-xl py-6 text-2xl font-light tracking-tighter">
+                    {HERO_CONTENT}
+                    </motion.p>
+                    <motion.a
+                        whileHover={{ textDecoration: 'underline', scale: 1.1}}
+                        variants={container(1.5)}
+                        initial="hidden"
+                        animate="visible"
+                        href={resume}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-neutral-100 font-light">
+                        View Resume as a PDF
+                    </motion.a>
                 </div>
             </div>
              <div className="w-full lg:w-1/2 lg:p-8">

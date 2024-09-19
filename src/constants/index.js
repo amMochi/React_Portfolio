@@ -1,8 +1,8 @@
 import retro from "../assets/projects/retro.png";
 
 
-export const HERO_CONTENT = `I am a passionate student developer, eager for creating and deploying software. 
-I have skills in front-end technologies like React and Tailwind CSS, as well as back-end technologies like Node.js, Python, and AWS. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate student developer, eager for creating solutions, deploying software, and 
+collaborating as a cohesive team to reach a shared objective.`;
 
 export const ABOUT_TEXT = `I decided to try programming mid-way through my 
 high-school career in midst of my healthcare pursuiance, tumbling straight into JavaScript web development, ultimately leading to
@@ -10,10 +10,9 @@ high-school career in midst of my healthcare pursuiance, tumbling straight into 
 cloud and web development.<br><br>
 
 I find the most satisfaction in developing software at the
-intersection of cybersecurity and programming -- cars 
-that are highly secured with a well built engine.<br><br>
+intersection of cybersecurity and programming. <br><br>
 
-During my free time, I enjoy soccer, playing the piano, rock climbing, or finding the next place where I can eat all you-can-eat korean bbq.
+During my free time, I enjoy soccer, playing the piano, rock climbing, or finding the next place where I can eat all you-can-eat Korean BBQ.
 `;
 
 export const EXPERIENCES = [
