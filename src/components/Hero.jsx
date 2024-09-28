@@ -1,7 +1,7 @@
 import {HERO_CONTENT} from "../constants";
 import profilePic from "../assets/pong.png";
 import { motion } from "framer-motion";
-import resume from '../assets/Godfrey_Ponce_Resume.pdf';
+import resume from '../assets/GodfreyPonce_Resume.pdf';
 
 
 const container = (delay) => ({
